@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="080fc69e-f2ab-41f8-be19-7c3f15a0199a" name="Steve@STEVEIBPDESKTOP 2010-11-21 13:51:55" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-21 13_51_55" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-21T13:51:55.1074218-05:00" queuing="2010-11-21T13:51:55.3339843-05:00" start="2010-11-21T13:51:55.4765625-05:00" finish="2010-11-21T13:51:55.8173828-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="1" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61">
+      <Execution timeOut="1800000" id="45a74bfc-ddab-42a0-a59e-81054b688861" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="fbf7f857-79de-08f2-9e81-b56c8176055a">
+      <Execution timeOut="1800000" id="58d032ab-8535-4092-b2dc-5de6a61e02fc" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8">
+      <Execution timeOut="1800000" id="2a4b3407-6452-4f4a-897d-5a4faf03da6c" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="e58f3d8c-ab7b-38fc-be49-9c3b34a1c06b">
+      <Execution timeOut="1800000" id="e22521f2-e541-4bce-9ceb-c6f4a4b623b3" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="13da457a-de1a-d177-f733-d21a9ae13cab">
+      <Execution timeOut="1800000" id="be0b6738-327e-4721-874d-390902d88793" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="c60ed6d3-3496-0613-9c00-fa196c8d3602">
+      <Execution timeOut="1800000" id="f54607fb-ed67-45b8-98b8-731229551829" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="3651180b-d929-b8db-ad01-d5dcbe714c12">
+      <Execution timeOut="1800000" id="671d7ed6-3a93-47d3-9c3a-518675b983a0" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="cf973075-79de-8e47-f55e-276afa057e7c">
+      <Execution timeOut="1800000" id="15bff57b-18e0-48dc-8a4a-a67b158e1e0d" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="89b81e32-42db-a649-acea-f2a6be4f6c25">
+      <Execution timeOut="1800000" id="6a7947ff-a483-42a6-b7b0-26928b12f57d" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13da457a-de1a-d177-f733-d21a9ae13cab" executionId="be0b6738-327e-4721-874d-390902d88793" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e58f3d8c-ab7b-38fc-be49-9c3b34a1c06b" executionId="e22521f2-e541-4bce-9ceb-c6f4a4b623b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf973075-79de-8e47-f55e-276afa057e7c" executionId="15bff57b-18e0-48dc-8a4a-a67b158e1e0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" executionId="2a4b3407-6452-4f4a-897d-5a4faf03da6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3651180b-d929-b8db-ad01-d5dcbe714c12" executionId="671d7ed6-3a93-47d3-9c3a-518675b983a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbf7f857-79de-08f2-9e81-b56c8176055a" executionId="58d032ab-8535-4092-b2dc-5de6a61e02fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c60ed6d3-3496-0613-9c00-fa196c8d3602" executionId="f54607fb-ed67-45b8-98b8-731229551829" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89b81e32-42db-a649-acea-f2a6be4f6c25" executionId="6a7947ff-a483-42a6-b7b0-26928b12f57d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61" executionId="45a74bfc-ddab-42a0-a59e-81054b688861" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="be0b6738-327e-4721-874d-390902d88793" testId="13da457a-de1a-d177-f733-d21a9ae13cab" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1585569" startTime="2010-11-21T13:51:55.5107421-05:00" endTime="2010-11-21T13:51:55.7187500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be0b6738-327e-4721-874d-390902d88793">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e22521f2-e541-4bce-9ceb-c6f4a4b623b3" testId="e58f3d8c-ab7b-38fc-be49-9c3b34a1c06b" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0342796" startTime="2010-11-21T13:51:55.7207031-05:00" endTime="2010-11-21T13:51:55.7548828-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e22521f2-e541-4bce-9ceb-c6f4a4b623b3">
+      <Output>
+        <StdOut>Begin Logging to File
+.................................</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithInstanceFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 46
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLogger..ctor()
+   at FileLoggerSample.Impl.Factories.InstanceFileLoggerFactory.Create() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\Factories\InstanceFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 37
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithInstanceFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15bff57b-18e0-48dc-8a4a-a67b158e1e0d" testId="cf973075-79de-8e47-f55e-276afa057e7c" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0008396" startTime="2010-11-21T13:51:55.7558593-05:00" endTime="2010-11-21T13:51:55.7568359-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15bff57b-18e0-48dc-8a4a-a67b158e1e0d">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenMultipleThreadsFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a4b3407-6452-4f4a-897d-5a4faf03da6c" testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0003906" startTime="2010-11-21T13:51:55.7578125-05:00" endTime="2010-11-21T13:51:55.7587890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a4b3407-6452-4f4a-897d-5a4faf03da6c">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenMultipleThreadsFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="671d7ed6-3a93-47d3-9c3a-518675b983a0" testId="3651180b-d929-b8db-ad01-d5dcbe714c12" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0007733" startTime="2010-11-21T13:51:55.7587890-05:00" endTime="2010-11-21T13:51:55.7597656-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671d7ed6-3a93-47d3-9c3a-518675b983a0">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenSingleThreadFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenSingleThreadFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58d032ab-8535-4092-b2dc-5de6a61e02fc" testId="fbf7f857-79de-08f2-9e81-b56c8176055a" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0003914" startTime="2010-11-21T13:51:55.7607421-05:00" endTime="2010-11-21T13:51:55.7617187-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58d032ab-8535-4092-b2dc-5de6a61e02fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenSingleThreadFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenSingleThreadFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f54607fb-ed67-45b8-98b8-731229551829" testId="c60ed6d3-3496-0613-9c00-fa196c8d3602" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0003822" startTime="2010-11-21T13:51:55.7617187-05:00" endTime="2010-11-21T13:51:55.7626953-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f54607fb-ed67-45b8-98b8-731229551829">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenSingleThreadFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenSingleThreadFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a7947ff-a483-42a6-b7b0-26928b12f57d" testId="89b81e32-42db-a649-acea-f2a6be4f6c25" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0003910" startTime="2010-11-21T13:51:55.7636718-05:00" endTime="2010-11-21T13:51:55.7646484-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a7947ff-a483-42a6-b7b0-26928b12f57d">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenSingleThreadFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenSingleThreadFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45a74bfc-ddab-42a0-a59e-81054b688861" testId="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0003853" startTime="2010-11-21T13:51:55.7646484-05:00" endTime="2010-11-21T13:51:55.7656250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45a74bfc-ddab-42a0-a59e-81054b688861">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method UnitTests.GivenSingleThreadFileLoggerShould.Setup threw exception. System.IO.IOException: System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at UnitTests.GivenSingleThreadFileLoggerShould.Setup() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

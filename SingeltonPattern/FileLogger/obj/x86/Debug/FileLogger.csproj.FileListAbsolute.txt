@@ -1,0 +1,28 @@
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\FileLoggerSample.exe
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\bin\Debug\FileLoggerSample.pdb
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\obj\x86\Debug\FileLoggerSample.exe
+c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\obj\x86\Debug\FileLoggerSample.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\obj\x86\Debug\FileLoggerSample.exe
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\obj\x86\Debug\FileLoggerSample.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\FileLoggerSample.exe
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\FileLoggerSample.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\obj\x86\Debug\ResolveAssemblyReference.cache

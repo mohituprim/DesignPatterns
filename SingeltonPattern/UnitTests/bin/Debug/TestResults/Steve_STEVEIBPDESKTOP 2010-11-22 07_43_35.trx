@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ae51172f-9be1-44b8-b368-61a2329d6975" name="Steve@STEVEIBPDESKTOP 2010-11-22 07:43:35" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-22 07_43_35" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-22T07:43:35.0468750-05:00" queuing="2010-11-22T07:43:35.2792968-05:00" start="2010-11-22T07:43:35.4423828-05:00" finish="2010-11-22T07:43:35.8457031-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReturnSameInstanceWhenConfiguredToDoSo" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="6fdd3c2c-b91b-2a1b-447f-51d6b1cbabd1">
+      <Execution timeOut="1800000" id="3377970e-d749-425d-a4ae-3c489ba67859" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.UnityShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnSameInstanceWhenConfiguredToDoSo" />
+    </UnitTest>
+    <UnitTest name="ReturnNewInstanceByDefault" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="4df233c3-34fd-3c0a-9099-1e7b348ceb4e">
+      <Execution timeOut="1800000" id="184f1d30-f8ac-4ef0-b385-dd7e7bf46a95" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.UnityShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnNewInstanceByDefault" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4df233c3-34fd-3c0a-9099-1e7b348ceb4e" executionId="184f1d30-f8ac-4ef0-b385-dd7e7bf46a95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fdd3c2c-b91b-2a1b-447f-51d6b1cbabd1" executionId="3377970e-d749-425d-a4ae-3c489ba67859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="184f1d30-f8ac-4ef0-b385-dd7e7bf46a95" testId="4df233c3-34fd-3c0a-9099-1e7b348ceb4e" testName="ReturnNewInstanceByDefault" computerName="STEVEIBPDESKTOP" duration="00:00:00.2437159" startTime="2010-11-22T07:43:35.4824218-05:00" endTime="2010-11-22T07:43:35.7783203-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="184f1d30-f8ac-4ef0-b385-dd7e7bf46a95">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.UnityShould.ReturnNewInstanceByDefault threw exception: 
+Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "FileLoggerSample.Interfaces.IFileLogger", name = "(none)".
+Exception occurred while: Calling constructor FileLoggerSample.Impl.FileLoggers.FileLogger().
+Exception is: ArgumentNullException - Value cannot be null.
+Parameter name: container
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving FileLoggerSample.Impl.FileLoggers.FileLogger,(none) (mapped from FileLoggerSample.Interfaces.IFileLogger, (none))
+  Calling constructor FileLoggerSample.Impl.FileLoggers.FileLogger()
+ ---&gt; System.ArgumentNullException: Value cannot be null.
+Parameter name: container</Message>
+          <StackTrace>    at Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   at FileLoggerSample.IoC.Resolve[TBase]() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\IoC.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLogger.cs:line 8
+   at BuildUp_FileLoggerSample.Impl.FileLoggers.FileLogger(IBuilderContext )
+   at Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   at Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+ --- End of inner exception stack trace ---
+    at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   at Tests.UnityShould.ReturnNewInstanceByDefault() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\UnityShould.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3377970e-d749-425d-a4ae-3c489ba67859" testId="6fdd3c2c-b91b-2a1b-447f-51d6b1cbabd1" testName="ReturnSameInstanceWhenConfiguredToDoSo" computerName="STEVEIBPDESKTOP" duration="00:00:00.0029486" startTime="2010-11-22T07:43:35.7822265-05:00" endTime="2010-11-22T07:43:35.7851562-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3377970e-d749-425d-a4ae-3c489ba67859">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.UnityShould.ReturnSameInstanceWhenConfiguredToDoSo threw exception: 
+Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "FileLoggerSample.Interfaces.IFileLogger", name = "(none)".
+Exception occurred while: Calling constructor FileLoggerSample.Impl.FileLoggers.FileLogger().
+Exception is: ArgumentNullException - Value cannot be null.
+Parameter name: container
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving FileLoggerSample.Impl.FileLoggers.FileLogger,(none) (mapped from FileLoggerSample.Interfaces.IFileLogger, (none))
+  Calling constructor FileLoggerSample.Impl.FileLoggers.FileLogger()
+ ---&gt; System.ArgumentNullException: Value cannot be null.
+Parameter name: container</Message>
+          <StackTrace>    at Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   at FileLoggerSample.IoC.Resolve[TBase]() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\IoC.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLogger.cs:line 8
+   at BuildUp_FileLoggerSample.Impl.FileLoggers.FileLogger(IBuilderContext )
+   at Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   at Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+ --- End of inner exception stack trace ---
+    at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   at Tests.UnityShould.ReturnSameInstanceWhenConfiguredToDoSo() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\UnityShould.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

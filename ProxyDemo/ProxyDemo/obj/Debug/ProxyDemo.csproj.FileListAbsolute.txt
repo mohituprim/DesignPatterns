@@ -1,0 +1,6 @@
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\bin\Debug\ProxyDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\bin\Debug\ProxyDemo.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\obj\Debug\ProxyDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\obj\Debug\ProxyDemo.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\ProxyDemo\bin\Debug\ProxyDemo.dll.config

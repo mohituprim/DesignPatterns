@@ -1,0 +1,18 @@
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\Iterator.dll
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\Iterator.pdb
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\nunit.framework.dll
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\nunit.mocks.dll
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\pnunit.framework.dll
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\bin\Debug\nunit.framework.xml
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\obj\Debug\ResolveAssemblyReference.cache
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\obj\Debug\Iterator.dll
+c:\users\steve\documents\visual studio 2010\Projects\Iterator\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\Iterator.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\nunit.framework.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\nunit.mocks.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\pnunit.framework.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\bin\Debug\nunit.framework.xml
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\obj\Debug\Iterator.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\017 - Iterator Pattern\before\Iterator\Iterator\obj\Debug\Iterator.pdb

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d1ec012f-0d5a-4883-9b93-0b5e255cdb9f" name="Steve@STEVEIBPDESKTOP 2010-11-21 13:30:17" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-21 13_30_17" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-21T13:30:17.9111328-05:00" queuing="2010-11-21T13:30:18.1308593-05:00" start="2010-11-21T13:30:18.2773437-05:00" finish="2010-11-21T13:30:18.6005859-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="44f93dbe-f258-eec6-160c-f8869e865df0">
+      <Execution timeOut="1800000" id="7aa9da01-311f-41bf-93aa-aebb0313448d" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="44f93dbe-f258-eec6-160c-f8869e865df0" executionId="7aa9da01-311f-41bf-93aa-aebb0313448d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7aa9da01-311f-41bf-93aa-aebb0313448d" testId="44f93dbe-f258-eec6-160c-f8869e865df0" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1849367" startTime="2010-11-21T13:30:18.3125000-05:00" endTime="2010-11-21T13:30:18.5458984-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7aa9da01-311f-41bf-93aa-aebb0313448d">
+      <Output>
+        <StdOut>Begin Logging to File
+.....................................................................................................................................................</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithSingletonFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IO.IOException: The process cannot access the file 'c:\logfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerSingleton..ctor() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\FileLoggerSingleton.cs:line 9
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerSingleton.get_Instance() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\FileLoggerSingleton.cs:line 19
+   at FileLoggerSample.Impl.Factories.SingletonFileLoggerFactory.Create() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\Factories\SingletonFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 31
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithSingletonFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="36492e75-ff39-4e7c-8e9b-ca2c8d0025e2" name="Steve@STEVEIBPDESKTOP 2010-11-21 13:36:59" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-21 13_36_59" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-21T13:36:59.7734375-05:00" queuing="2010-11-21T13:37:00.0000000-05:00" start="2010-11-21T13:37:00.1396484-05:00" finish="2010-11-21T13:37:06.4746093-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61">
+      <Execution timeOut="1800000" id="df6f7a4e-5b02-44b6-a5ac-d2dfc1ab3734" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="fbf7f857-79de-08f2-9e81-b56c8176055a">
+      <Execution timeOut="1800000" id="5698caf1-596d-4531-99c4-581ad84b489b" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8">
+      <Execution timeOut="1800000" id="909fcda4-cf58-4c6c-ac22-462fe718d325" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="13da457a-de1a-d177-f733-d21a9ae13cab">
+      <Execution timeOut="1800000" id="743f25be-6af6-48f0-8ab5-7544a373345d" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="c60ed6d3-3496-0613-9c00-fa196c8d3602">
+      <Execution timeOut="1800000" id="ba5fd45f-2f89-4691-acc1-1cca71c39d5a" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="3651180b-d929-b8db-ad01-d5dcbe714c12">
+      <Execution timeOut="1800000" id="92380e2b-924a-4a18-8329-45242e079e93" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="cf973075-79de-8e47-f55e-276afa057e7c">
+      <Execution timeOut="1800000" id="7857860f-5a90-44d7-ad1d-25f064e81d78" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="89b81e32-42db-a649-acea-f2a6be4f6c25">
+      <Execution timeOut="1800000" id="f9ff5b36-d81b-4ed4-b192-e2b428660592" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenSingleThreadFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13da457a-de1a-d177-f733-d21a9ae13cab" executionId="743f25be-6af6-48f0-8ab5-7544a373345d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf973075-79de-8e47-f55e-276afa057e7c" executionId="7857860f-5a90-44d7-ad1d-25f064e81d78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" executionId="909fcda4-cf58-4c6c-ac22-462fe718d325" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3651180b-d929-b8db-ad01-d5dcbe714c12" executionId="92380e2b-924a-4a18-8329-45242e079e93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbf7f857-79de-08f2-9e81-b56c8176055a" executionId="5698caf1-596d-4531-99c4-581ad84b489b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c60ed6d3-3496-0613-9c00-fa196c8d3602" executionId="ba5fd45f-2f89-4691-acc1-1cca71c39d5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89b81e32-42db-a649-acea-f2a6be4f6c25" executionId="f9ff5b36-d81b-4ed4-b192-e2b428660592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61" executionId="df6f7a4e-5b02-44b6-a5ac-d2dfc1ab3734" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="743f25be-6af6-48f0-8ab5-7544a373345d" testId="13da457a-de1a-d177-f733-d21a9ae13cab" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1627186" startTime="2010-11-21T13:37:00.1757812-05:00" endTime="2010-11-21T13:37:00.3886718-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="743f25be-6af6-48f0-8ab5-7544a373345d">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7857860f-5a90-44d7-ad1d-25f064e81d78" testId="cf973075-79de-8e47-f55e-276afa057e7c" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0101068" startTime="2010-11-21T13:37:00.3896484-05:00" endTime="2010-11-21T13:37:00.4003906-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7857860f-5a90-44d7-ad1d-25f064e81d78">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="909fcda4-cf58-4c6c-ac22-462fe718d325" testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0160439" startTime="2010-11-21T13:37:00.4003906-05:00" endTime="2010-11-21T13:37:00.4169921-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="909fcda4-cf58-4c6c-ac22-462fe718d325">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="92380e2b-924a-4a18-8329-45242e079e93" testId="3651180b-d929-b8db-ad01-d5dcbe714c12" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0249978" startTime="2010-11-21T13:37:00.4179687-05:00" endTime="2010-11-21T13:37:00.4433593-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92380e2b-924a-4a18-8329-45242e079e93">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithDoubleCheckLockedSingletonFileLogger threw exception: 
+System.ObjectDisposedException: Cannot write to a closed TextWriter.</Message>
+          <StackTrace>    at System.IO.__Error.WriterClosed()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   at System.IO.TextWriter.WriteLine(String value)
+   at System.IO.TextWriter.SyncTextWriter.WriteLine(String value)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.WriteLineToFile(String value) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 28
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFile.cs:line 24
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 31
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithDoubleCheckLockedSingletonFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5698caf1-596d-4531-99c4-581ad84b489b" testId="fbf7f857-79de-08f2-9e81-b56c8176055a" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:05.9603198" startTime="2010-11-21T13:37:00.4443359-05:00" endTime="2010-11-21T13:37:06.4052734-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5698caf1-596d-4531-99c4-581ad84b489b">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba5fd45f-2f89-4691-acc1-1cca71c39d5a" testId="c60ed6d3-3496-0613-9c00-fa196c8d3602" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0020132" startTime="2010-11-21T13:37:06.4062500-05:00" endTime="2010-11-21T13:37:06.4082031-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba5fd45f-2f89-4691-acc1-1cca71c39d5a">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithLazySingletonFileLogger threw exception: 
+System.ObjectDisposedException: Cannot write to a closed TextWriter.</Message>
+          <StackTrace>    at System.IO.__Error.WriterClosed()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   at System.IO.TextWriter.WriteLine(String value)
+   at System.IO.TextWriter.SyncTextWriter.WriteLine(String value)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.WriteLineToFile(String value) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 28
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFile.cs:line 24
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 31
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithLazySingletonFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9ff5b36-d81b-4ed4-b192-e2b428660592" testId="89b81e32-42db-a649-acea-f2a6be4f6c25" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0016206" startTime="2010-11-21T13:37:06.4091796-05:00" endTime="2010-11-21T13:37:06.4111328-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ff5b36-d81b-4ed4-b192-e2b428660592">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithLockedSingletonFileLogger threw exception: 
+System.ObjectDisposedException: Cannot write to a closed TextWriter.</Message>
+          <StackTrace>    at System.IO.__Error.WriterClosed()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   at System.IO.TextWriter.WriteLine(String value)
+   at System.IO.TextWriter.SyncTextWriter.WriteLine(String value)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.WriteLineToFile(String value) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 28
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFile.cs:line 24
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 31
+   at UnitTests.GivenSingleThreadFileLoggerShould.LogNumbersWithLockedSingletonFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df6f7a4e-5b02-44b6-a5ac-d2dfc1ab3734" testId="ae8f5fdb-5a80-0124-c03c-b3d6be5a8e61" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0081529" startTime="2010-11-21T13:37:06.4121093-05:00" endTime="2010-11-21T13:37:06.4218750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df6f7a4e-5b02-44b6-a5ac-d2dfc1ab3734">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

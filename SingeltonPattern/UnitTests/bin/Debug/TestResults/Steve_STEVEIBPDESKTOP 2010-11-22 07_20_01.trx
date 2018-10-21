@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="31a369bb-3727-416e-b464-b9df0dcf7ae4" name="Steve@STEVEIBPDESKTOP 2010-11-22 07:20:01" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-22 07_20_01" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-22T07:20:01.6220703-05:00" queuing="2010-11-22T07:20:02.3378906-05:00" start="2010-11-22T07:20:02.7666015-05:00" finish="2010-11-22T07:20:02.9531250-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReturnSameInstance" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="f9d19464-3a28-07a8-398e-ff17fb761872">
+      <Execution timeOut="1800000" id="14d399d8-d281-42b3-9a78-2037a81fc07c" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SingletonShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnSameInstance" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f9d19464-3a28-07a8-398e-ff17fb761872" executionId="14d399d8-d281-42b3-9a78-2037a81fc07c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="14d399d8-d281-42b3-9a78-2037a81fc07c" testId="f9d19464-3a28-07a8-398e-ff17fb761872" testName="ReturnSameInstance" computerName="STEVEIBPDESKTOP" duration="00:00:00.0123081" startTime="2010-11-22T07:20:02.8144531-05:00" endTime="2010-11-22T07:20:02.8798828-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14d399d8-d281-42b3-9a78-2037a81fc07c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,5 @@
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\008 - Template Method Pattern\TMDemo\TMDemo\bin\TMDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\008 - Template Method Pattern\TMDemo\TMDemo\bin\TMDemo.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\008 - Template Method Pattern\TMDemo\TMDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\008 - Template Method Pattern\TMDemo\TMDemo\obj\Debug\TMDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\008 - Template Method Pattern\TMDemo\TMDemo\obj\Debug\TMDemo.pdb

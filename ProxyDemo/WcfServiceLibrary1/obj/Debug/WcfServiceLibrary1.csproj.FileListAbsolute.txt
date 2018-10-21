@@ -1,0 +1,6 @@
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\010 - Proxy Pattern\ProxyDemo\ProxyDemo\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

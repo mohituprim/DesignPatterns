@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="54cfe18f-9c24-48da-bcf9-91a7e3ec7f8a" name="Steve@STEVEIBPDESKTOP 2010-11-21 13:30:32" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-21 13_30_32" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-21T13:30:32.2041015-05:00" queuing="2010-11-21T13:30:32.4218750-05:00" start="2010-11-21T13:30:32.5693359-05:00" finish="2010-11-21T13:30:32.8906250-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\visual studio 2010\projects\filelogger\unittests\bin\debug\unittests.dll" id="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8">
+      <Execution timeOut="1800000" id="b386a676-d40b-4233-957c-12054c1df47a" />
+      <TestMethod codeBase="c:/users/steve/documents/visual studio 2010/Projects/FileLogger/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.GivenMultipleThreadsFileLoggerShould, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" executionId="b386a676-d40b-4233-957c-12054c1df47a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b386a676-d40b-4233-957c-12054c1df47a" testId="8dfa8e08-8bc4-1574-c18b-3d48482f6fa8" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1832081" startTime="2010-11-21T13:30:32.6064453-05:00" endTime="2010-11-21T13:30:32.8369140-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b386a676-d40b-4233-957c-12054c1df47a">
+      <Output>
+        <StdOut>Begin Logging to File
+....................................................................................................................................................................................................................................................</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLockedSingletonFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IndexOutOfRangeException: Probable I/O race condition detected while copying memory. The I/O package is not thread safe by default. In multithreaded applications, a stream must be accessed in a thread-safe way, such as a thread-safe wrapper returned by TextReader's or TextWriter's Synchronized methods. This also applies to classes like StreamWriter and StreamReader.</Message>
+          <StackTrace>    at System.Buffer.InternalBlockCopy(Array src, Int32 srcOffsetBytes, Array dst, Int32 dstOffsetBytes, Int32 byteCount)
+   at System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   at System.IO.TextWriter.WriteLine(String value)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.WriteLineToFile(String value) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 28
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 26
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 31
+   at UnitTests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLockedSingletonFileLogger() in c:\users\steve\documents\visual studio 2010\Projects\FileLogger\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

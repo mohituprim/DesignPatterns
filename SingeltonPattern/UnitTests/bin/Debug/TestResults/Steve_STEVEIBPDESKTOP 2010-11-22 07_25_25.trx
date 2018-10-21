@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b22a5a29-225f-4822-b800-fb1957e720fd" name="Steve@STEVEIBPDESKTOP 2010-11-22 07:25:25" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-22 07_25_25" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-22T07:25:25.8134765-05:00" queuing="2010-11-22T07:25:26.0400390-05:00" start="2010-11-22T07:25:26.1933593-05:00" finish="2010-11-22T07:25:26.8115234-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" passed="5" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="13423727-1e6d-3178-690f-8e8f60828f75">
+      <Execution timeOut="1800000" id="f773ab65-1143-49fe-92f2-9c9420f528d2" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9">
+      <Execution timeOut="1800000" id="2019de9d-7f95-45a7-9687-4a621b3e44df" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="d4518daa-5a58-be73-b267-f1710d0f425d">
+      <Execution timeOut="1800000" id="49da1e67-2157-4a7a-8e5a-6794d7fba79b" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenMultipleThreadsFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="026440b7-68f7-1396-ae68-260a83a35a48">
+      <Execution timeOut="1800000" id="7bf56b81-b8b9-42b4-bc12-7158d732125b" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="6a875a90-8dcc-954b-a79c-dcd8d55dbe58">
+      <Execution timeOut="1800000" id="788331d0-58c5-4491-951b-d1c11dbb31b0" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenMultipleThreadsFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="dda96246-cae2-54a7-857e-690234bc57e9">
+      <Execution timeOut="1800000" id="d4b20487-647a-4b09-a914-91a914246465" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenMultipleThreadsFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="d4bc16c9-4fdc-82a1-1817-afe78e374fb6">
+      <Execution timeOut="1800000" id="ec7d2779-f9f4-45fa-9a26-4e5b9ff4a42f" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="39fe155c-8164-7692-4849-522b13708cf8">
+      <Execution timeOut="1800000" id="b40ccb7e-0537-4f02-89af-287a6bedb0c9" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenMultipleThreadsFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="8a0d0b6b-06db-8bc7-6c97-086ee67efa58">
+      <Execution timeOut="1800000" id="4961c48e-4bdc-4bb3-9abf-2d7a2d86741d" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="acec8649-8722-e26d-fce9-695b1ef88bf5">
+      <Execution timeOut="1800000" id="fca604df-95f5-4220-ac66-ad06921a3d0f" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenMultipleThreadsFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="ReturnSameInstance" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="b9e5df13-d02c-817e-ea51-83eba3ac6951">
+      <Execution timeOut="1800000" id="5bdc7e80-321a-426c-a7ed-4e5bae4d48b0" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.LazySingletonShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnSameInstance" />
+    </UnitTest>
+    <UnitTest name="ReturnSameInstance" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="f9d19464-3a28-07a8-398e-ff17fb761872">
+      <Execution timeOut="1800000" id="90ae9c32-5927-40cb-ada0-61ef9a918046" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.SingletonShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnSameInstance" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dda96246-cae2-54a7-857e-690234bc57e9" executionId="d4b20487-647a-4b09-a914-91a914246465" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39fe155c-8164-7692-4849-522b13708cf8" executionId="b40ccb7e-0537-4f02-89af-287a6bedb0c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a875a90-8dcc-954b-a79c-dcd8d55dbe58" executionId="788331d0-58c5-4491-951b-d1c11dbb31b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acec8649-8722-e26d-fce9-695b1ef88bf5" executionId="fca604df-95f5-4220-ac66-ad06921a3d0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4518daa-5a58-be73-b267-f1710d0f425d" executionId="49da1e67-2157-4a7a-8e5a-6794d7fba79b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9" executionId="2019de9d-7f95-45a7-9687-4a621b3e44df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13423727-1e6d-3178-690f-8e8f60828f75" executionId="f773ab65-1143-49fe-92f2-9c9420f528d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="026440b7-68f7-1396-ae68-260a83a35a48" executionId="7bf56b81-b8b9-42b4-bc12-7158d732125b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4bc16c9-4fdc-82a1-1817-afe78e374fb6" executionId="ec7d2779-f9f4-45fa-9a26-4e5b9ff4a42f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a0d0b6b-06db-8bc7-6c97-086ee67efa58" executionId="4961c48e-4bdc-4bb3-9abf-2d7a2d86741d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9e5df13-d02c-817e-ea51-83eba3ac6951" executionId="5bdc7e80-321a-426c-a7ed-4e5bae4d48b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9d19464-3a28-07a8-398e-ff17fb761872" executionId="90ae9c32-5927-40cb-ada0-61ef9a918046" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d4b20487-647a-4b09-a914-91a914246465" testId="dda96246-cae2-54a7-857e-690234bc57e9" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1625857" startTime="2010-11-22T07:25:26.2343750-05:00" endTime="2010-11-22T07:25:26.4472656-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4b20487-647a-4b09-a914-91a914246465">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b40ccb7e-0537-4f02-89af-287a6bedb0c9" testId="39fe155c-8164-7692-4849-522b13708cf8" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0368582" startTime="2010-11-22T07:25:26.4511718-05:00" endTime="2010-11-22T07:25:26.4882812-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b40ccb7e-0537-4f02-89af-287a6bedb0c9">
+      <Output>
+        <StdOut>Begin Logging to File
+..................................</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithInstanceFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLogger.cs:line 8
+   at FileLoggerSample.Impl.Factories.InstanceFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\InstanceFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 37
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithInstanceFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="788331d0-58c5-4491-951b-d1c11dbb31b0" testId="6a875a90-8dcc-954b-a79c-dcd8d55dbe58" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0100513" startTime="2010-11-22T07:25:26.4912109-05:00" endTime="2010-11-22T07:25:26.5019531-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="788331d0-58c5-4491-951b-d1c11dbb31b0">
+      <Output>
+        <StdOut>Begin Logging to File
+......</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLazySingletonFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.TypeInitializationException: The type initializer for 'Nested' threw an exception. ---&gt; System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 8
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton.Nested..cctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 29
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton.get_Instance() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 18
+   at FileLoggerSample.Impl.Factories.LazySingletonFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\LazySingletonFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 37
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLazySingletonFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fca604df-95f5-4220-ac66-ad06921a3d0f" testId="acec8649-8722-e26d-fce9-695b1ef88bf5" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1731273" startTime="2010-11-22T07:25:26.5048828-05:00" endTime="2010-11-22T07:25:26.6787109-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fca604df-95f5-4220-ac66-ad06921a3d0f">
+      <Output>
+        <StdOut>Begin Logging to File
+.............................</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLockedSingletonFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerThreadSafeSingleton..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerThreadSafeSingleton.cs:line 12
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerThreadSafeSingleton.get_Instance() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerThreadSafeSingleton.cs:line 26
+   at FileLoggerSample.Impl.Factories.LockedSingletonFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\LockedSingletonFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 37
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithLockedSingletonFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="49da1e67-2157-4a7a-8e5a-6794d7fba79b" testId="d4518daa-5a58-be73-b267-f1710d0f425d" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0112977" startTime="2010-11-22T07:25:26.6816406-05:00" endTime="2010-11-22T07:25:26.6933593-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49da1e67-2157-4a7a-8e5a-6794d7fba79b">
+      <Output>
+        <StdOut>Begin Logging to File
+.................................</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithSingletonFileLogger threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerSingleton..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerSingleton.cs:line 9
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerSingleton.get_Instance() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerSingleton.cs:line 20
+   at FileLoggerSample.Impl.Factories.SingletonFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\SingletonFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.&lt;&gt;c__DisplayClass1.&lt;WriteNumbersToFile&gt;b__0(Int32 i) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 24
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClassf`1.&lt;ForWorker&gt;b__c()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass7.&lt;ExecuteSelfReplicating&gt;b__6(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at FileLoggerSample.Impl.NumbersToTextFileAsync.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFileAsync.cs:line 29
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 37
+   at Tests.GivenMultipleThreadsFileLoggerShould.LogNumbersWithSingletonFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenMultipleThreadsFileLoggerShould.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2019de9d-7f95-45a7-9687-4a621b3e44df" testId="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0043559" startTime="2010-11-22T07:25:26.6962890-05:00" endTime="2010-11-22T07:25:26.7011718-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2019de9d-7f95-45a7-9687-4a621b3e44df">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithDoubleCheckLockedSingletonFileLogger threw exception: 
+System.ObjectDisposedException: Cannot write to a closed TextWriter.</Message>
+          <StackTrace>    at System.IO.__Error.WriterClosed()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   at System.IO.TextWriter.WriteLine(String value)
+   at System.IO.TextWriter.SyncTextWriter.WriteLine(String value)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.WriteLineToFile(String value) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 28
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFile.cs:line 24
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 38
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithDoubleCheckLockedSingletonFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f773ab65-1143-49fe-92f2-9c9420f528d2" testId="13423727-1e6d-3178-690f-8e8f60828f75" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0071965" startTime="2010-11-22T07:25:26.7041015-05:00" endTime="2010-11-22T07:25:26.7119140-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f773ab65-1143-49fe-92f2-9c9420f528d2">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithInstanceFileLogger threw exception: 
+System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLogger.cs:line 8
+   at FileLoggerSample.Impl.Factories.InstanceFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\InstanceFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFile.cs:line 23
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 38
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithInstanceFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7bf56b81-b8b9-42b4-bc12-7158d732125b" testId="026440b7-68f7-1396-ae68-260a83a35a48" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0019745" startTime="2010-11-22T07:25:26.7148437-05:00" endTime="2010-11-22T07:25:26.7177734-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bf56b81-b8b9-42b4-bc12-7158d732125b">
+      <Output>
+        <StdOut>Begin Logging to File
+.</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithLazySingletonFileLogger threw exception: 
+System.TypeInitializationException: The type initializer for 'Nested' threw an exception. ---&gt; System.IO.IOException: The process cannot access the file 'c:\dev\scratch\logs\baselogfile.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger.GetFileStream() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 39
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor(IDelayConfig delayConfig) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 23
+   at FileLoggerSample.Impl.FileLoggers.BaseFileLogger..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\BaseFileLogger.cs:line 16
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton..ctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 8
+   at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton.Nested..cctor() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 29
+ --- End of inner exception stack trace ---
+    at FileLoggerSample.Impl.FileLoggers.FileLoggerLazySingleton.get_Instance() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\FileLoggers\FileLoggerLazySingleton.cs:line 18
+   at FileLoggerSample.Impl.Factories.LazySingletonFileLoggerFactory.Create() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\Factories\LazySingletonFileLoggerFactory.cs:line 10
+   at FileLoggerSample.Impl.NumbersToTextFile.WriteNumbersToFile() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\FileLogger\Impl\NumbersToTextFile.cs:line 23
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbers() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 38
+   at Tests.GivenSingleThreadFileLoggerShould.LogNumbersWithLazySingletonFileLogger() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\007 - Singleton Pattern\Demo\UnitTests\GivenSingleThreadFileLoggerShould.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec7d2779-f9f4-45fa-9a26-4e5b9ff4a42f" testId="d4bc16c9-4fdc-82a1-1817-afe78e374fb6" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0085291" startTime="2010-11-22T07:25:26.7265625-05:00" endTime="2010-11-22T07:25:26.7353515-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec7d2779-f9f4-45fa-9a26-4e5b9ff4a42f">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4961c48e-4bdc-4bb3-9abf-2d7a2d86741d" testId="8a0d0b6b-06db-8bc7-6c97-086ee67efa58" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0076967" startTime="2010-11-22T07:25:26.7392578-05:00" endTime="2010-11-22T07:25:26.7470703-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4961c48e-4bdc-4bb3-9abf-2d7a2d86741d">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5bdc7e80-321a-426c-a7ed-4e5bae4d48b0" testId="b9e5df13-d02c-817e-ea51-83eba3ac6951" testName="ReturnSameInstance" computerName="STEVEIBPDESKTOP" duration="00:00:00.0008235" startTime="2010-11-22T07:25:26.7500000-05:00" endTime="2010-11-22T07:25:26.7519531-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bdc7e80-321a-426c-a7ed-4e5bae4d48b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="90ae9c32-5927-40cb-ada0-61ef9a918046" testId="f9d19464-3a28-07a8-398e-ff17fb761872" testName="ReturnSameInstance" computerName="STEVEIBPDESKTOP" duration="00:00:00.0004745" startTime="2010-11-22T07:25:26.7539062-05:00" endTime="2010-11-22T07:25:26.7548828-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90ae9c32-5927-40cb-ada0-61ef9a918046">
+    </UnitTestResult>
+  </Results>
+</TestRun>

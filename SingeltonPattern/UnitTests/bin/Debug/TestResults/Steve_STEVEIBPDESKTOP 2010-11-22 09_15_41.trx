@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1fae16dd-e750-42db-b1ae-36c510428889" name="Steve@STEVEIBPDESKTOP 2010-11-22 09:15:41" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="60c2b78c-affc-4f37-9333-f6ec362971eb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2010-11-22 09_15_41" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-22T09:15:41.6064453-05:00" queuing="2010-11-22T09:15:41.8349609-05:00" start="2010-11-22T09:15:41.9921875-05:00" finish="2010-11-22T09:15:48.2353515-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogNumbersWithLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="d4bc16c9-4fdc-82a1-1817-afe78e374fb6">
+      <Execution timeOut="1800000" id="d81d8fa6-d5f8-4d61-b082-41fb004af1ab" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="8a0d0b6b-06db-8bc7-6c97-086ee67efa58">
+      <Execution timeOut="1800000" id="5f7e055f-3875-4110-9687-44926b873365" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithInstanceFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="13423727-1e6d-3178-690f-8e8f60828f75">
+      <Execution timeOut="1800000" id="3c953e21-b14c-47b7-8c41-056e62ca29b0" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithInstanceFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9">
+      <Execution timeOut="1800000" id="6b7e19f8-3c9c-4c3e-80a2-7075ff512051" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithDoubleCheckLockedSingletonFileLogger" />
+    </UnitTest>
+    <UnitTest name="LogNumbersWithLazySingletonFileLogger" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\007 - singleton pattern\demo\unittests\bin\debug\tests.dll" id="026440b7-68f7-1396-ae68-260a83a35a48">
+      <Execution timeOut="1800000" id="cda1f61c-8c4f-4663-84ca-1364543f93f1" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/007 - Singleton Pattern/Demo/UnitTests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GivenSingleThreadFileLoggerShould, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogNumbersWithLazySingletonFileLogger" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9" executionId="6b7e19f8-3c9c-4c3e-80a2-7075ff512051" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13423727-1e6d-3178-690f-8e8f60828f75" executionId="3c953e21-b14c-47b7-8c41-056e62ca29b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="026440b7-68f7-1396-ae68-260a83a35a48" executionId="cda1f61c-8c4f-4663-84ca-1364543f93f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4bc16c9-4fdc-82a1-1817-afe78e374fb6" executionId="d81d8fa6-d5f8-4d61-b082-41fb004af1ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a0d0b6b-06db-8bc7-6c97-086ee67efa58" executionId="5f7e055f-3875-4110-9687-44926b873365" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6b7e19f8-3c9c-4c3e-80a2-7075ff512051" testId="10e63d6c-b6b0-deca-2f1f-e2d4bc6678a9" testName="LogNumbersWithDoubleCheckLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.1689786" startTime="2010-11-22T09:15:42.0361328-05:00" endTime="2010-11-22T09:15:42.2568359-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b7e19f8-3c9c-4c3e-80a2-7075ff512051">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c953e21-b14c-47b7-8c41-056e62ca29b0" testId="13423727-1e6d-3178-690f-8e8f60828f75" testName="LogNumbersWithInstanceFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:05.8842193" startTime="2010-11-22T09:15:42.2587890-05:00" endTime="2010-11-22T09:15:48.1435546-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c953e21-b14c-47b7-8c41-056e62ca29b0">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cda1f61c-8c4f-4663-84ca-1364543f93f1" testId="026440b7-68f7-1396-ae68-260a83a35a48" testName="LogNumbersWithLazySingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0091381" startTime="2010-11-22T09:15:48.1455078-05:00" endTime="2010-11-22T09:15:48.1562500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cda1f61c-8c4f-4663-84ca-1364543f93f1">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d81d8fa6-d5f8-4d61-b082-41fb004af1ab" testId="d4bc16c9-4fdc-82a1-1817-afe78e374fb6" testName="LogNumbersWithLockedSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0094537" startTime="2010-11-22T09:15:48.1582031-05:00" endTime="2010-11-22T09:15:48.1679687-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d81d8fa6-d5f8-4d61-b082-41fb004af1ab">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f7e055f-3875-4110-9687-44926b873365" testId="8a0d0b6b-06db-8bc7-6c97-086ee67efa58" testName="LogNumbersWithSingletonFileLogger" computerName="STEVEIBPDESKTOP" duration="00:00:00.0092530" startTime="2010-11-22T09:15:48.1689453-05:00" endTime="2010-11-22T09:15:48.1796875-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f7e055f-3875-4110-9687-44926b873365">
+      <Output>
+        <StdOut>Begin Logging to File
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
